@@ -1,0 +1,56 @@
+.contactContainer {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactContainer h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contactDetails h4 {
+    letter-spacing: 0.05em;
+    color: #A8A8A8;
+    font: normal normal normal 16px/1.4em poppins-extralight,poppins,sans-serif;
+}
+
+.contactDetails h1 {
+    color: #0F0F0F;
+    font: normal normal normal 72px/1.4em barlow-medium,barlow,sans-serif;
+}
+
+.contactIcons i {
+    font-size: 20px;
+    padding: 10px 15px;
+    color: #A8A8A8;
+}
+
+.contactDetails h5 {
+    width: 60%;
+    letter-spacing: 0.05em;
+    font: normal normal normal 16px/1.4em poppins-extralight,poppins,sans-serif;
+    color: #A8A8A8;
+}
+
+.contactDetails {
+    border-radius: 1px;
+    border-left: solid;
+    border-left-width: 1px;
+    border-color: #CCCACA;
+    padding-left: 30px;
+}
+
+@media (max-width: 1000px) {
+    .contactContainer {
+        width: 90%;
+        display: contents;
+    }
+}
+
+@media (max-width: 700px) {
+    .contactContainer {
+        width: 90%;
+    }
+}
+

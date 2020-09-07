@@ -1,0 +1,78 @@
+
+:root {
+    --gutter: 20px;
+}
+
+.productTypesContainer {
+}
+
+.eventType {
+    letter-spacing: 0.1em;
+    color: #A8A8A8;
+    font: normal normal normal 16px/1.4em poppins-extralight,poppins,sans-serif;
+}
+
+.watchAll {
+    color: #5BABAB;
+    letter-spacing: 0.1em;
+    font: normal normal normal 16px/1.4em poppins-extralight,poppins,sans-serif;
+
+}
+
+.eventType:hover,
+.watchAll:hover {
+    cursor: pointer;
+}
+
+.hs {
+    display: flex;
+    grid-gap: calc(var(--gutter) / 2);
+    grid-template-columns: repeat(6, calc(50% - var(--gutter) * 2));
+    grid-template-rows: minmax(150px, 1fr);
+
+    overflow-x: scroll;
+    scroll-snap-type: x proximity;
+    padding-bottom: calc(.75 * var(--gutter));
+    margin-bottom: calc(-.25 * var(--gutter));
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.hs > li,
+.item {
+    position: relative;
+    scroll-snap-align: center;
+    padding: calc(var(--gutter) / 2 * 1.5);
+    background: #fff;
+    border-radius: 8px;
+}
+
+.item span {
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 70%;
+    right: 30%;
+    letter-spacing: 0.1em;
+    color: #A8A8A8;
+    font: normal normal normal 16px/1.4em poppins-extralight,poppins,sans-serif;
+}
+
+.item:Hover span {
+    visibility: visible;
+    font-weight: bold;
+}
+.item:Hover {
+    opacity: .9;
+}
+
+.item img {
+    height: 350px;
+    width: 230px;
+    object-fit: cover;
+    image-rendering: crisp-edges;
+}
