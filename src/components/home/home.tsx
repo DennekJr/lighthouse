@@ -201,7 +201,7 @@ export const Home = () => {
           itemName5="Shingetsu5"
           itemName6="Shingetsu6"
           itemName7="Shingetsu Num7"
-          itemName8="Shingetsu8"
+          itemName8="Shingetsu num8"
           itemName9="Shingetsu9"
           itemName10="Shingetsu10"
           itemName11="Shingetsu11"
