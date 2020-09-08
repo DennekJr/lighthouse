@@ -11,7 +11,7 @@ export const Form = () => {
           <input
             placeholder="First Name..."
             type="fname"
-            style={{ width: "600px" }}
+            style={{ width: "100%" }}
             className="formEmail"
           />
         </span>
@@ -20,13 +20,13 @@ export const Form = () => {
           <input
             placeholder="Email..."
             type="email"
-            style={{ width: "600px" }}
+            style={{ width: "100%" }}
             className="formEmail"
           />
         </span>
         <span>
           <label>What type of project are you looking for?</label>
-          <select className="formDropdown">
+          <select className="formDropdown" style={{ width: "100%" }}>
             <option value="Select an Option...">Select an Option...</option>
             <option value="volvo">Volvo</option>
             <option value="saab">Saab</option>
@@ -39,13 +39,13 @@ export const Form = () => {
           <input
             placeholder="Number..."
             type="number"
-            style={{ width: "600px" }}
+            style={{ width: "100%" }}
             className="formEmail"
           />
         </span>
         <span>
           <label>How did you hear about us?</label>
-          <select className="formDropdown">
+          <select className="formDropdown" style={{ width: "100%" }}>
             <option value="Select an Option...">Select an Option...</option>
             <option value="volvo">Personal Website</option>
             <option value="saab">Facebook</option>
@@ -62,7 +62,7 @@ export const Form = () => {
             onChange={() => {}}
             label="Extra details..."
             rows={6}
-            style={{ width: "600px" }}
+            style={{ width: "100%" }}
           />
         </span>
         <span style={{flexDirection: 'row', justifyContent: 'space-between'}} className="submitButton">

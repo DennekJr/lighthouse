@@ -8,8 +8,8 @@ import {Contact} from "../home/contact/contact";
 const Main = () => (
     <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/" component={About} />
-        <Route exact path="/" component={Contact} />
+        <Route exact path="#home" component={About} />
+        <Route exact path="#about" component={Contact} />
     </Switch>
 );
 

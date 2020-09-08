@@ -44,3 +44,14 @@
     font-weight: 700;
     line-height: 1.6;
 }
+
+@media (max-width: 900px) {
+    .aboutContainer {
+        width: 90%;
+    }
+}
+@media (max-width: 700px) {
+    .aboutContainer {
+        width: 100%;
+    }
+}

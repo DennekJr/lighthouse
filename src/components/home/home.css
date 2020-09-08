@@ -93,3 +93,13 @@
 
     }
 }
+
+@media (max-width: 500px) {
+    .borderLeft h2{
+        font-size: 40px;
+    }
+
+    .borderLeft h5 {
+        font-size: 10px;
+    }
+}
