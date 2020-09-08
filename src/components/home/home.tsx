@@ -43,13 +43,14 @@ export const Home = () => {
           video4="https://www.youtube.com/embed/lxZ7pRUqtvY?feature=oembed&start&end&wmode=opaque&loop=0&controls=1&mute=0&rel=0&modestbranding=0"
         />
       </section>
-      <section style={{ padding: "30px", display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
+      <section style={{ padding: "60px 30px", display: 'flex', alignItems: 'center', flexDirection: 'column'}} id="about">
         <About />
         <Client />
       </section>
       <section
-        style={{ padding: "30px", display: "flex", justifyContent: "center"}}
+        style={{ padding: " 50px 30px", display: "flex", justifyContent: "center"}}
         className="contactForm"
+        id="contact"
       >
         <Contact />
         <Form />

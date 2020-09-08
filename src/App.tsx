@@ -28,9 +28,8 @@ function App() {
             scroll
           >
             <Navigation>
-              <a href="/product_photography">Product Photography</a>
-              <a href="/about">About</a>
-              <a href="/contact">Contact</a>
+              <a href="#about">About</a>
+              <a href="#contact">Contact</a>
             </Navigation>
           </Header>
         </section>
