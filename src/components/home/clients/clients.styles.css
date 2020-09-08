@@ -1,0 +1,37 @@
+.clientContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 74%;
+}
+
+.clientHeading {
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 35px;
+    margin-top: 60px;
+}
+
+.clientHeading h2,
+.clientHeading hr {
+    margin: 0;
+}
+
+.clientIconsContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.clientIcons {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+}

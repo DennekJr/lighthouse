@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    width: 74%;
+}
+
+.aboutHeading {
+  /*background-color: red;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 35px;
+}
+
+.aboutHeading h2,
+.aboutHeading hr {
+  margin: 0;
+}
+
+.aboutLighthouse {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+    margin-bottom: 26px;
+}
+
+.qualities {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.qualities h5 {
+    color: #222222;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 1.6;
+}

@@ -1,5 +1,4 @@
 .container {
-    min-height: 100vh;
 }
 
 .headerVideoSection {
@@ -53,6 +52,22 @@
     border-left-width: 1px;
     border-color: #CCCACA;
     padding-left: 30px;
+}
+
+.borderLeft h5 {
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background-color: #24272b;
 }
 
 @media (max-width: 1000px) {
