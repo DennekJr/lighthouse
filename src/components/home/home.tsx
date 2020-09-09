@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Grid } from "react-mdl";
+import { Button } from "react-mdl";
 import "./home.css";
 import { ProductTypes } from "./productTypes/productTypes";
 import { Form } from "./form/form";

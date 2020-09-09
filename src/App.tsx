@@ -4,13 +4,8 @@ import {
   Header,
   Navigation,
   Content,
-  Footer,
-  FooterSection,
-  FooterLinkList,
-  Button,
 } from "react-mdl";
 import "./App.css";
-import { Link } from "react-router-dom";
 import Main from "./components/route/main";
 
 function App() {
