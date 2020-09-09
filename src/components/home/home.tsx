@@ -14,17 +14,6 @@ export const Home = () => {
         <div className="borderLeft">
           <h5>Cooking Videos . Product Videos . Cinematography</h5>
           <h2>Lighthouse Productions</h2>
-          <h3>Creating films that inspires millions</h3>
-          <h4>So what's your dream? Let's make it a reality</h4>
-          <Button
-            raised
-            accent
-            ripple
-            className="bannerButton"
-            style={{ backgroundColor: "rgba(91, 171, 171, 1)" }}
-          >
-            WATCH HIGHLIGHT REEL
-          </Button>
         </div>
       </section>
       <section style={{ padding: "30px" }}>
@@ -48,7 +37,7 @@ export const Home = () => {
         <Client />
       </section>
       <section
-        style={{ padding: " 50px 30px", display: "flex", justifyContent: "center"}}
+        style={{ padding: " 50px 30px 150px 30px", display: "flex", justifyContent: "center"}}
         className="contactForm"
         id="contact"
       >

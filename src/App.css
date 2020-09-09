@@ -21,3 +21,9 @@
   padding: 20px;
   background-color: #24272B;
 }
+
+@media (max-width: 1024px) {
+  #headerId {
+    display: initial;
+  }
+}

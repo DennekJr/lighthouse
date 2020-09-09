@@ -20,6 +20,7 @@ function App() {
         <section>
           <Header
             className="headerColor"
+            id="headerId"
             title={
               <Link to="/" style={{ textDecoration: "none", color: "white" }}>
                 Lighthouse Productions
@@ -28,6 +29,7 @@ function App() {
             scroll
           >
             <Navigation>
+              <a href="/home">Home</a>
               <a href="#about">About</a>
               <a href="#contact">Contact</a>
             </Navigation>
