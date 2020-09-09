@@ -21,17 +21,12 @@ function App() {
           <Header
             className="headerColor"
             id="headerId"
-            title={
-              <Link to="/" style={{ textDecoration: "none", color: "white" }}>
-                Lighthouse Productions
-              </Link>
-            }
             scroll
           >
             <Navigation>
-              <a href="/home">Home</a>
-              <a href="#about">About</a>
-              <a href="#contact">Contact</a>
+              <a href="/home" id="headerNavs">Home</a>
+              <a href="#about" id="headerNavs">About</a>
+              <a href="#contact" id="headerNavs">Contact</a>
             </Navigation>
           </Header>
         </section>

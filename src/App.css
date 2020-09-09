@@ -22,6 +22,19 @@
   background-color: #24272B;
 }
 
+#headerId {
+  opacity: 0.8;
+}
+
+#headerNavs {
+  color: white;
+  transition: all .2s linear;
+}
+
+#headerNavs:hover {
+  color: #75acff;
+}
+
 @media (max-width: 1024px) {
   #headerId {
     display: initial;
