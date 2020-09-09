@@ -21,20 +21,20 @@ export const Contact = () => {
           </h4>
         </div>
         <div className="contactIcons">
-          <a href="https://www.instagram.com/thelighthouseprod/">
-            <i className="fa fa-instagram" />
+          <a href="https://www.instagram.com/thelighthouseprod/" >
+            <i className="fa fa-instagram" id="icon"/>
           </a>
           <a href="https://www.youtube.com/channel/UCw_qytcogWgbeSgt2qfpzEQ/featured?view_as=subscriber">
-            <i className="fa fa-youtube" />
+            <i className="fa fa-youtube" id="icon"/>
           </a>
           <a href="https://www.facebook.com/thelighthouseprod">
-            <i className="fa fa-facebook" />
+            <i className="fa fa-facebook" id="icon"/>
           </a>
           <a href="https://wa.me/+36706178235">
-            <i className="fa fa-whatsapp" />
+            <i className="fa fa-whatsapp" id="icon"/>
           </a>
           <a href="https://www.linkedin.com/company/thelighthouseprod">
-            <i className="fa fa-linkedin" />
+            <i className="fa fa-linkedin" id="icon"/>
           </a>
         </div>
       </div>
