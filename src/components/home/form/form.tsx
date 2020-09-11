@@ -25,7 +25,7 @@ export const Form = () => {
           />
         </span>
         <span>
-          <label>Tell me more about this project</label>
+          <label>Tell me more about your project</label>
           <Textfield
             onChange={() => {}}
             label="Extra details..."
