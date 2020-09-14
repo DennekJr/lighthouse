@@ -1,105 +1,109 @@
-.container {
-}
-
 .headerVideoSection {
-    background: black;
-    right: 0;
-    left: 0;
-    position: relative;
-    padding: 250px 0 100px 100px;
+  background: white;
+  position: relative;
 }
-
+.introVideo {
+  min-width: 100%;
+  height: 75vh;
+  overflow: hidden;
+}
+.introVideo video{
+    margin-top: -200px;
+    margin-left: -100px;
+}
 .headerVideoSection h4,
-.headerVideoSection h3{
-    color: #CCCACA;
+.headerVideoSection h3 {
+  color: #cccaca;
 }
 
 .headerVideoSection h5 {
-    font: normal normal normal 16px/1.4em poppins-extralight,'poppins',sans-serif;
-    color: #A8A8A8;
-    line-height: 1.7em;
+  font: normal normal normal 16px/1.4em poppins-extralight, "poppins",
+    sans-serif;
+  color: #a8a8a8;
+  line-height: 1.7em;
 }
 
 .headerVideoSection h2 {
-    letter-spacing: normal;
-    font: normal normal normal 72px/1.4em barlow-medium,'barlow',sans-serif;
-    color: #FFFFFF;
-    margin: 0 0 37px calc((100% - 980px) * 0);
+  letter-spacing: normal;
+  font: normal normal normal 72px/1.4em barlow-medium, "barlow", sans-serif;
+  color: #ffffff;
+  margin: 0 0 37px calc((100% - 980px) * 0);
 }
 
 .headerVideoSection h3 {
-    font: normal normal normal 18px/1.4em poppins-extralight,poppins,sans-serif;
-    letter-spacing: 0.2em;
-    margin: 0 0 37px calc((100% - 980px) * 0);
-    text-transform: uppercase;
+  font: normal normal normal 18px/1.4em poppins-extralight, poppins, sans-serif;
+  letter-spacing: 0.2em;
+  margin: 0 0 37px calc((100% - 980px) * 0);
+  text-transform: uppercase;
 }
 
 .headerVideoSection h4 {
-    font: normal normal normal 16px/1.4em poppins-extralight,poppins,sans-serif;
-    letter-spacing: 0.2em;
-    line-height: 1.7em;
-    margin: 0 0 37px calc((100% - 980px) * 0);
-    text-transform: uppercase;
+  font: normal normal normal 16px/1.4em poppins-extralight, poppins, sans-serif;
+  letter-spacing: 0.2em;
+  line-height: 1.7em;
+  margin: 0 0 37px calc((100% - 980px) * 0);
+  text-transform: uppercase;
 }
 
 .headerVideoSection .bannerButton {
-    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+  transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
 }
 
 .borderLeft {
-    border-radius: 1px;
-    border-left: solid;
-    border-left-width: 1px;
-    border-color: #CCCACA;
-    padding-left: 30px;
+  border-radius: 1px;
+  border-left: solid;
+  border-left-width: 1px;
+  border-color: #cccaca;
+  padding-left: 30px;
 }
 
 .borderLeft h5 {
-    text-transform: uppercase;
-    letter-spacing: 0.25em;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
 }
 
 .footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    position: absolute;
-    left: 0;
-    right: 0;
-    padding: 20px;
-    background-color: #24272b;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background-color: #24272b;
 }
 
 @media (max-width: 1000px) {
-    .contactForm {
-        flex-direction: column;
-        padding: 15px;
-    }
+  .contactForm {
+    flex-direction: column;
+    padding: 15px;
+  }
 }
 
 @media (max-width: 700px) {
-    .headerVideoSection {
-        padding: 50px 0 50px 10px;
-    }
+  .headerVideoSection {
+    padding: 50px 0 50px 10px;
+  }
 
-    .headerVideoSection h2 {
-        font: normal normal normal 52px/1.4em barlow-medium,'barlow',sans-serif;
-    }
-    .headerVideoSection h3 {
-        font: normal normal normal 14px/1.4em poppins-extralight,poppins,sans-serif;
-    }
-    .headerVideoSection h4 {
-        font: normal normal normal 12px/1.4em poppins-extralight,poppins,sans-serif;
-
-    }
+  .headerVideoSection h2 {
+    font: normal normal normal 52px/1.4em barlow-medium, "barlow", sans-serif;
+  }
+  .headerVideoSection h3 {
+    font: normal normal normal 14px/1.4em poppins-extralight, poppins,
+      sans-serif;
+  }
+  .headerVideoSection h4 {
+    font: normal normal normal 12px/1.4em poppins-extralight, poppins,
+      sans-serif;
+  }
 }
 
 @media (max-width: 500px) {
-    .borderLeft h2{
-        font-size: 40px;
-    }
+  .borderLeft h2 {
+    font-size: 40px;
+  }
 
-    .borderLeft h5 {
-        font-size: 10px;
-    }
+  .borderLeft h5 {
+    font-size: 10px;
+  }
 }

@@ -19,9 +19,8 @@
   padding-bottom: 35px;
 }
 
-.aboutHeading h2,
-.aboutHeading hr {
-  margin: 0;
+.aboutHeading h2 {
+    margin-bottom: 10px;
 }
 
 .aboutLighthouse {

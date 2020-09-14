@@ -1,12 +1,12 @@
 import React from "react";
 import "./about.styles.css";
+import {SectionTitle} from "../../SectionTitle/SectionTitle";
 
 export const About = () => {
   return (
     <div className="aboutContainer">
       <div className="aboutHeading">
-        <h2>ABOUT</h2>
-        <hr style={{ borderTop: "3px solid #7720FB", width: '80%' }} />
+        <SectionTitle title={'About'}/>
       </div>
       <div className="aboutLighthouse">
         <span>
