@@ -1,10 +1,13 @@
 import React from "react";
 import "./about.styles.css";
 import {SectionTitle} from "../../SectionTitle/SectionTitle";
+import {useScroll} from "../../../hooks/useScroll";
 
 export const About = () => {
+  const [executeScroll, htmlElRef] = useScroll()
+
   return (
-    <div className="aboutContainer">
+    <div className="aboutContainer" ref={htmlElRef}>
       <div className="aboutHeading">
         <SectionTitle title={'About'}/>
       </div>
