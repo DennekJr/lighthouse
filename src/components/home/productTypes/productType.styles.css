@@ -76,3 +76,20 @@ ul {
     object-fit: cover;
     image-rendering: crisp-edges;
 }
+
+.iframe {
+    height: 100%;
+    border: none;
+    width: 30vw;
+}
+
+@media (max-width: 700px) {
+    .iframe {
+        width: 45vw;
+    }
+}
+@media (max-width: 500px) {
+    .iframe {
+        width: 70vw;
+    }
+}

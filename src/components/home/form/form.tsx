@@ -11,7 +11,7 @@ export const Form = () => {
           <input
             placeholder="First Name..."
             type="fname"
-            style={{ width: "600px" }}
+            style={{ width: "100%" }}
             className="formEmail"
           />
         </span>
@@ -20,49 +20,17 @@ export const Form = () => {
           <input
             placeholder="Email..."
             type="email"
-            style={{ width: "600px" }}
+            style={{ width: "100%" }}
             className="formEmail"
           />
         </span>
         <span>
-          <label>What type of project are you looking for?</label>
-          <select className="formDropdown">
-            <option value="Select an Option...">Select an Option...</option>
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="fiat">Fiat</option>
-            <option value="audi">Audi</option>
-          </select>
-        </span>
-        <span>
-          <label>Budget</label>
-          <input
-            placeholder="Number..."
-            type="number"
-            style={{ width: "600px" }}
-            className="formEmail"
-          />
-        </span>
-        <span>
-          <label>How did you hear about us?</label>
-          <select className="formDropdown">
-            <option value="Select an Option...">Select an Option...</option>
-            <option value="volvo">Personal Website</option>
-            <option value="saab">Facebook</option>
-            <option value="fiat">Instagram</option>
-            <option value="audi">Youtube</option>
-            <option value="audi">Twitter</option>
-            <option value="audi">Google</option>
-            <option value="audi">Personal Connection</option>
-          </select>
-        </span>
-        <span>
-          <label>Tell me more about this project</label>
+          <label>Tell me more about your project</label>
           <Textfield
             onChange={() => {}}
             label="Extra details..."
             rows={6}
-            style={{ width: "600px" }}
+            style={{ width: "100%" }}
           />
         </span>
         <span style={{flexDirection: 'row', justifyContent: 'space-between'}} className="submitButton">
